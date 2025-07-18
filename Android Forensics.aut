@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2025/07/10 20:20:49 (WAT)</CreatedDate>
+  <ModifiedDate>2025/07/10 20:21:11 (WAT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.22.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.22.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>android_forensics_20250710_202049</Name>
+    <DisplayName>Android Forensics</DisplayName>
+    <Number>001</Number>
+    <Examiner>Asibe Destiny</Examiner>
+    <ExaminerPhone>08138831064</ExaminerPhone>
+    <ExaminerEmail>destinyasibe@gmail</ExaminerEmail>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>
