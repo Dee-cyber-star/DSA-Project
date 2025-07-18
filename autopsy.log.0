@@ -1,0 +1,238 @@
+2025-07-10 20:21:16.947 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2025-07-10 20:21:17.886 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2025-07-10 20:21:24.246 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-07-10 20:21:24.248 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2025-07-10 20:21:24.277 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-07-10 20:21:34.685 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2025-07-10 20:21:36.566 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2025-07-10 20:21:39.451 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.49.1.0 loaded in native mode
+2025-07-10 20:21:42.061 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened Android Forensics (android_forensics_20250710_202049) in C:\Users\ME\Downloads\Android Forensics as the current case
+2025-07-10 20:21:53.697 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2025-07-10 20:22:00.552 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-07-10 20:22:13.168 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-07-10 20:22:15.377 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2025-07-10 20:22:17.059 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-07-10 20:22:17.259 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.22.1
+2025-07-10 20:22:17.443 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.22.1
+2025-07-10 20:22:17.654 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.22.1
+2025-07-10 20:22:17.794 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.22.1
+2025-07-10 20:22:17.807 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.22.1
+2025-07-10 20:22:17.941 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.22.1
+2025-07-10 20:22:18.083 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.22.1
+2025-07-10 20:22:18.221 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.22.1
+2025-07-10 20:22:18.222 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.22.1
+2025-07-10 20:22:18.382 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.22.1
+2025-07-10 20:22:18.382 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.22.1
+2025-07-10 20:22:18.534 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-07-10 20:22:18.694 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.22.1
+2025-07-10 20:22:18.978 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.22.1
+2025-07-10 20:22:19.279 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.22.1
+2025-07-10 20:22:19.421 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.22.1
+2025-07-10 20:22:19.888 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.22.1
+2025-07-10 20:22:19.91 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.22.1
+2025-07-10 20:22:19.928 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.22.1
+2025-07-10 20:22:21.64 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-07-10 20:22:21.642 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.22.1
+2025-07-10 20:22:31.498 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient createSSLContext
+INFO: Creating custom SSL context
+2025-07-10 20:22:31.502 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getKeyManagers
+INFO: Using default algorithm to create trust store: SunX509
+2025-07-10 20:22:31.503 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getTrustManagers
+INFO: Using default algorithm to create trust store: PKIX
+2025-07-10 20:22:32.763 com.basistech.df.cybertriage.autopsy.incidentoptions.CTSettings getAppDataLocalDirectory
+INFO: Application Data Path: C:\Users\ME\AppData\Local\cybertriage
+2025-07-10 20:22:37.18 org.sleuthkit.autopsy.casemodule.AddImageWizardSelectDspPanel getComponent
+WARNING: There was no properties file containing the last DataSourceProcessor used, Disk Image or VM will be selected as default selection
+2025-07-10 20:31:16.574 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-07-10 20:31:16.575 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.22.1
+2025-07-10 20:31:16.576 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.22.1
+2025-07-10 20:31:16.576 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.22.1
+2025-07-10 20:31:16.577 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.22.1
+2025-07-10 20:31:16.577 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.22.1
+2025-07-10 20:31:16.578 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.22.1
+2025-07-10 20:31:16.578 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.22.1
+2025-07-10 20:31:16.58 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.22.1
+2025-07-10 20:31:16.58 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.22.1
+2025-07-10 20:31:16.581 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.22.1
+2025-07-10 20:31:16.581 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.22.1
+2025-07-10 20:31:16.581 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-07-10 20:31:16.582 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.22.1
+2025-07-10 20:31:16.583 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.22.1
+2025-07-10 20:31:16.583 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.22.1
+2025-07-10 20:31:16.583 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.22.1
+2025-07-10 20:31:16.584 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.22.1
+2025-07-10 20:31:16.584 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.22.1
+2025-07-10 20:31:16.585 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.22.1
+2025-07-10 20:31:16.871 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-07-10 20:31:16.873 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.22.1
+2025-07-10 20:31:21.805 org.sleuthkit.autopsy.casemodule.AddImageWizardSelectDspPanel getComponent
+WARNING: There was no properties file containing the last DataSourceProcessor used, Disk Image or VM will be selected as default selection
+2025-07-10 20:33:38.672 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-07-10 20:33:38.673 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.22.1
+2025-07-10 20:33:38.674 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.22.1
+2025-07-10 20:33:38.674 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.22.1
+2025-07-10 20:33:38.675 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.22.1
+2025-07-10 20:33:38.675 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.22.1
+2025-07-10 20:33:38.675 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.22.1
+2025-07-10 20:33:38.676 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.22.1
+2025-07-10 20:33:38.676 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.22.1
+2025-07-10 20:33:38.677 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.22.1
+2025-07-10 20:33:38.678 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.22.1
+2025-07-10 20:33:38.678 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.22.1
+2025-07-10 20:33:38.678 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-07-10 20:33:38.679 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.22.1
+2025-07-10 20:33:38.679 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.22.1
+2025-07-10 20:33:38.68 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.22.1
+2025-07-10 20:33:38.68 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.22.1
+2025-07-10 20:33:38.68 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.22.1
+2025-07-10 20:33:38.681 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.22.1
+2025-07-10 20:33:38.681 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.22.1
+2025-07-10 20:33:39.106 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-07-10 20:33:39.108 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.22.1
+2025-07-10 20:35:43.038 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2025-07-10 20:35:43.039 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1752176143039
+2025-07-10 20:35:43.179 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2025-07-10 20:35:44.963 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file batch mode (data source = LogicalFileSet1, data source object ID = 1, job ID = 0)
+2025-07-10 20:35:44.984 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of LogicalFileSet1 starting
+2025-07-10 20:43:19.862 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 18 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:20.446 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 60 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:20.447 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 61 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:20.447 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 62 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:20.476 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 65 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:20.902 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 88 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:21.463 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 127 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:23.123 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 210 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:23.129 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 212 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:23.13 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 213 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:23.13 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 214 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:23.139 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column expiration date at line 216 in file Chrome - Cookies.tsv.  Omitting row.
+2025-07-10 20:43:37.284 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 2 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.39 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 4 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.436 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 6 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.507 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 8 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.575 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 10 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.648 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 12 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.648 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 13 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.672 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 15 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.775 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 17 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.795 org.sleuthkit.autopsy.modules.leappanalyzers.LeappFileProcessor processReadLine
+WARNING: Blackboard attribute could not be parsed column date sent at line 19 in file sms messages.tsv.  Omitting row.
+2025-07-10 20:43:37.869 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of LogicalFileSet1 finished
+2025-07-10 20:43:37.87 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = LogicalFileSet1, data source object ID = 1, job ID = 0)
+2025-07-10 20:43:37.871 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = LogicalFileSet1, data source object ID = 1, job ID = 0)
+2025-07-10 20:43:37.871 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = LogicalFileSet1, data source object ID = 1, job ID = 0)
+2025-07-10 20:43:37.871 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = LogicalFileSet1, data source object ID = 1, job ID = 0)
+2025-07-10 20:43:37.915 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed at 1752176617915
+2025-07-10 20:48:54.11 org.sleuthkit.autopsy.report.ReportBranding getReportTitle
+INFO: Using default report branding for report title
